@@ -1,0 +1,123 @@
+html, body {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    background: #1C2023;
+}
+
+.container {
+    /*border: solid;
+    border-color: #fbfbfb;*/
+
+    align-content: center;
+    margin: auto;
+    display: flex;
+    padding: 5%;
+    margin-top: 1%;
+    width: 89%;
+    height: 75%;
+}
+
+.pic {
+    position: absolute;
+    width: auto;
+    align-self: center;
+    left: 10%;
+}
+
+.content-block {
+    /*border: solid;
+    border-color: #fbfbfb;*/
+
+    position: absolute;
+    left: 55%;
+    align-content: center;
+    align-self: center;
+}
+
+.about {
+    /*border: solid;
+    border-color: #ff0000;*/
+
+    position: relative;
+    align-self: flex-start;
+    margin: auto;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    line-height: 27px;
+    text-align: center;
+
+    color: #FBFBFB;
+}
+
+.links {
+    /*border: solid;
+    border-color: #0000ff;*/
+
+    position: relative;
+    margin: auto;    
+    width: 400px;
+    height: 40px;
+
+    padding: 5%;
+}
+
+.reddit {
+    position: absolute;
+    max-width: 40px;
+    max-height: 40px;
+    left: 0px;
+}
+
+.github {
+    position: absolute;
+    max-width: 40px;
+    max-height: 40px;
+    left: 60px;
+}
+
+.linkedin {
+    position: absolute;
+    max-width: 40px;
+    max-height: 40px;
+    left: 120px;
+}
+
+.twitter {
+    position: absolute;
+    max-width: 40px;
+    max-height: 40px;
+    left: 180px;
+}
+
+.instagram {
+    position: absolute;
+    max-width: 40px;
+    max-height: 40px;
+    left: 240px;  
+}
+
+.meetup {
+    position: absolute;
+    max-width: 40px;
+    max-height: 40px;
+    left: 300px;
+}
+
+.spotify {
+    position: absolute;
+    max-width: 40px;
+    max-height: 40px;
+    left: 360px;
+} 
+/*
+@media screen and (max-width: 800px){
+   
+}
+*/
