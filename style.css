@@ -35,7 +35,7 @@ html, body {
     border-color: #fbfbfb;*/
 
     position: absolute;
-    left: 55%;
+    left: 60%;
     align-content: center;
     align-self: center;
 }
@@ -70,7 +70,7 @@ html, body {
     padding-top: 5%;
 }
 
-.reddit {
+.steam {
     position: absolute;
     max-width: 40px;
     max-height: 40px;
