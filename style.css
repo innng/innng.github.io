@@ -23,9 +23,11 @@ html, body {
 
 .pic {
     position: absolute;
-    width: auto;
-    align-self: center;
     left: 15%;
+    align-self: center;
+    max-width: 408.98px;
+    max-height: 400px;
+    width: auto;
 }
 
 .content-block {
@@ -65,7 +67,7 @@ html, body {
     width: 400px;
     height: 40px;
 
-    padding: 5%;
+    padding-top: 5%;
 }
 
 .reddit {
@@ -116,8 +118,7 @@ html, body {
     max-height: 40px;
     left: 360px;
 } 
-/*
+
 @media screen and (max-width: 800px){
    
 }
-*/
