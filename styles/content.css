@@ -1,0 +1,108 @@
+:root {
+    --text-color: #c4bbb8;
+    --title-color1: #39375b;
+    --title-color2: #745c97;
+    --title-color3: #dc6acf;
+    --title-color4: #f5b0cb;
+}
+
+#main-box {
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#main-box .profile-pic {
+    border-radius: 50%;
+
+    filter: contrast(70%);
+}
+
+#main-box .content-block {
+    margin-left: 24px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#main-box .content-block h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+    background: -webkit-linear-gradient(
+        45deg,
+        var(--title-color1),
+        var(--title-color2),
+        var(--title-color3),
+        var(--title-color4)
+    );
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#main-box .content-block p {
+    margin-top: 24px;
+
+    font-family: "Exo", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+#main-box .content-block .links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 24px;
+}
+
+#main-box .content-block .links #mail {
+    width: 20px;
+    height: 20px;
+
+    background-color: var(--text-color);
+    -webkit-mask: url("../assets/regular/envelope.svg") no-repeat center;
+    mask: url("../assets/regular/envelope.svg") no-repeat center;
+}
+
+#main-box .content-block .links #github {
+    width: 20px;
+    height: 20px;
+
+    background-color: var(--text-color);
+    -webkit-mask: url("../assets/brands/github.svg") no-repeat center;
+    mask: url("../assets/brands/github.svg") no-repeat center;
+}
+
+#main-box .content-block .links #resume {
+    width: 20px;
+    height: 20px;
+
+    background-color: var(--text-color);
+    -webkit-mask: url("../assets/regular/user-circle.svg") no-repeat center;
+    mask: url("../assets/regular/user-circle.svg") no-repeat center;
+}
+
+#main-box .content-block .links #linkedin {
+    width: 20px;
+    height: 20px;
+
+    background-color: var(--text-color);
+    -webkit-mask: url("../assets/brands/linkedin-in.svg") no-repeat center;
+    mask: url("../assets/brands/linkedin-in.svg") no-repeat center;
+}
+
+#main-box .content-block .links #meetup {
+    width: 20px;
+    height: 20px;
+
+    background-color: var(--text-color);
+    -webkit-mask: url("../assets/brands/meetup.svg") no-repeat center;
+    mask: url("../assets/brands/meetup.svg") no-repeat center;
+}
