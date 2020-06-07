@@ -3,6 +3,9 @@
     --bg-color2: #e73c7e;
     --bg-color3: #23a6d5;
     --bg-color4: #23d5ab;
+
+    --box-width: 80vw;
+    --box-height: 80vh;
 }
 
 * {
@@ -28,7 +31,8 @@ body {
         var(--bg-color4)
     );
     background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
+    animation: gradient 10s ease-in-out infinite;
+    animation-direction: alternate;
 
     height: 100%;
     display: flex;
@@ -50,8 +54,8 @@ body {
 
 #solid-box {
     position: absolute;
-    width: 90vw;
-    height: 90vh;
+    width: var(--box-width);
+    height: var(--box-height);
 
     background: white;
     opacity: 0.05;

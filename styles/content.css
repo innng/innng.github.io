@@ -4,16 +4,20 @@
     --title-color2: #745c97;
     --title-color3: #dc6acf;
     --title-color4: #f5b0cb;
+
+    --icon-size: 26px;
 }
 
 #main-box {
     position: absolute;
-    width: 90vw;
-    height: 90vh;
+    width: var(--box-width);
+    height: var(--box-height);
 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    padding: 5%;
 }
 
 #main-box .profile-pic {
@@ -43,6 +47,9 @@
     background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    margin-top: 15px;
+    text-align: center;
 }
 
 #main-box .content-block p {
@@ -52,6 +59,9 @@
     font-weight: normal;
     font-size: 20px;
     color: var(--text-color);
+
+    margin-top: 15px;
+    text-align: center;
 }
 
 #main-box .content-block .links {
@@ -63,8 +73,8 @@
 }
 
 #main-box .content-block .links #mail {
-    width: 20px;
-    height: 20px;
+    width: var(--icon-size);
+    height: var(--icon-size);
 
     background-color: var(--text-color);
     -webkit-mask: url("../assets/regular/envelope.svg") no-repeat center;
@@ -72,8 +82,8 @@
 }
 
 #main-box .content-block .links #github {
-    width: 20px;
-    height: 20px;
+    width: var(--icon-size);
+    height: var(--icon-size);
 
     background-color: var(--text-color);
     -webkit-mask: url("../assets/brands/github.svg") no-repeat center;
@@ -81,8 +91,8 @@
 }
 
 #main-box .content-block .links #resume {
-    width: 20px;
-    height: 20px;
+    width: var(--icon-size);
+    height: var(--icon-size);
 
     background-color: var(--text-color);
     -webkit-mask: url("../assets/regular/user-circle.svg") no-repeat center;
@@ -90,8 +100,8 @@
 }
 
 #main-box .content-block .links #linkedin {
-    width: 20px;
-    height: 20px;
+    width: var(--icon-size);
+    height: var(--icon-size);
 
     background-color: var(--text-color);
     -webkit-mask: url("../assets/brands/linkedin-in.svg") no-repeat center;
@@ -99,8 +109,8 @@
 }
 
 #main-box .content-block .links #meetup {
-    width: 20px;
-    height: 20px;
+    width: var(--icon-size);
+    height: var(--icon-size);
 
     background-color: var(--text-color);
     -webkit-mask: url("../assets/brands/meetup.svg") no-repeat center;

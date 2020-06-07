@@ -1,0 +1,11 @@
+@media (max-width: 900px) {
+    #main-box {
+        flex-direction: column;
+    }
+}
+
+@media (max-height: 760px) {
+    #main-box .profile-pic {
+        width: 0;
+    }
+}
