@@ -1,9 +1,10 @@
 :root {
     --text-color: #c4bbb8;
-    --title-color1: #39375b;
-    --title-color2: #745c97;
-    --title-color3: #dc6acf;
-    --title-color4: #f5b0cb;
+
+    --title-color1: #5e4ae3;
+    --title-color2: #f26ca7;
+    --title-color3: #947bd3;
+    --title-color4: #f0a7a0;
 
     --icon-size: 26px;
 }
@@ -35,6 +36,7 @@
 
 #main-box .content-block h1 {
     font-family: "Montserrat", sans-serif;
+    font-size: 48px;
     font-weight: bold;
 
     background: -webkit-linear-gradient(
