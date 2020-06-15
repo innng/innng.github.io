@@ -118,3 +118,12 @@
     -webkit-mask: url("../assets/brands/meetup.svg") no-repeat center;
     mask: url("../assets/brands/meetup.svg") no-repeat center;
 }
+
+#main-box .content-block .links #badges {
+    width: var(--icon-size);
+    height: var(--icon-size);
+
+    background-color: var(--text-color);
+    -webkit-mask: url("../assets/solid/award.svg") no-repeat center;
+    mask: url("../assets/solid/award.svg") no-repeat center;
+}
